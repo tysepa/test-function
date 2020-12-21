@@ -1,10 +1,8 @@
 /**
- * The function sayHello is broken, you need to fix it.
- *
- * It should take in the users name and return the proper greeting, in example: 'Hello, John!'
+ * Implement a function circleLength that calculates the length of the circle given its radius
  * */
 
-import { sayHello } from './helper.js';
+import { circleLength } from './helper.js';
 
-console.log(sayHello('John'));   // Hello, John!
-console.log(sayHello('Sandy'));  // Hello, Sandy!
+console.log(circleLength(5));
+console.log(circleLength(12));
